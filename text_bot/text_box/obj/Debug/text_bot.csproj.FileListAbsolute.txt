@@ -1,0 +1,10 @@
+C:\Users\salih\source\repos\text_box\text_box\obj\Debug\text_bot.csprojAssemblyReference.cache
+C:\Users\salih\source\repos\text_box\text_box\obj\Debug\text_bot.Form1.resources
+C:\Users\salih\source\repos\text_box\text_box\obj\Debug\text_bot.csproj.GenerateResource.cache
+C:\Users\salih\source\repos\text_box\text_box\obj\Debug\text_bot.csproj.CoreCompileInputs.cache
+C:\Users\salih\source\repos\text_box\text_box\bin\Debug\text_bot.exe.config
+C:\Users\salih\source\repos\text_box\text_box\bin\Debug\text_bot.exe
+C:\Users\salih\source\repos\text_box\text_box\bin\Debug\text_bot.pdb
+C:\Users\salih\source\repos\text_box\text_box\obj\Debug\text_bot.Properties.Resources.resources
+C:\Users\salih\source\repos\text_box\text_box\obj\Debug\text_bot.exe
+C:\Users\salih\source\repos\text_box\text_box\obj\Debug\text_bot.pdb
