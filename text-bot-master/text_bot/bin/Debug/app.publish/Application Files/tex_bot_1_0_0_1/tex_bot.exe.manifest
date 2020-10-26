@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="tex_bot.exe" version="1.0.0.1" publicKeyToken="0282d2e40168dc37" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="keyboard_14708.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="tex_bot" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="tex_bot.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Bildirim Seçenekleri
+          Windows Kullanıcı Hesabı Denetimi düzeyini değiştirmek istiyorsanız,
+           requestedExecutionLevel düğümünü aşağıdakilerden biriyle değiştirin.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Geriye dönük uyumluluk için Dosya ve Kayıt Defteri Sanallaştırması
+         kullanmak istiyorsanız, requestedExecutionLevel düğümünü silin.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="tex_bot.exe" size="19368">
+      <assemblyIdentity name="tex_bot" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>h0d1F3vDPa19Q2a+yJs0PhfEt4F60TH6CtzUm9gcpeo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="keyboard_14708.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UVqqsTHmz0uJTjSUq5CrzRhQBp8QZBaJWkn6JhhPljY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="keyboard_5643.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PzBgUTlDFUjqenkUGzFSYUWbJToq0zrOy8xu1p0kiW8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="tex_bot.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SALIH\salih" issuerKeyHash="53895b2a9f07a167934bbd2bd99722b50a402943" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jIY3L4A3exFJX3D2XyLESQowLsRrUUCFYOKMDPZO3Lw=</DigestValue></Reference></SignedInfo><SignatureValue>kTEZ6xQFM1UBtMo2ukMprYwZtAiDLa/cOVJoTvvg3JtqBOI92gEpdvN175MBrRaTg1yX4/EfOJwm+o/HSYUMlsKiv0cnDo53sxWImdFULHo7SnB61gBDloUO+YuOc8IWfhLFkBCSnIZYdW0gu3pwIBKG1fJtxdfPx1dRo1h+rXk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tB16EYUfHaU0J2OWuTfTImnptII+wB7GHb2Yf2EofL/uyRYyOhF84qarfnLYfO6EgWghtkf8LGUEfuANdp8Aaz5PxVrLJvfPw6/HJMlByX1ruUqgg5WdPcny0QiUbiTFO6je4OcFD6oS4zx6TygGMPklDVzuCgcdSJLNxb59uSE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="bcdc4ef60c8ce2608540516bc42e300a49c4225ff6705f49117b37802f37868c" Description="" Url=""><as:assemblyIdentity name="tex_bot.exe" version="1.0.0.1" publicKeyToken="0282d2e40168dc37" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SALIH\salih</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>LkdJ3L2H9d0VFakQjXrla+ILyrKdccRNrpG4KFvWuy0=</DigestValue></Reference></SignedInfo><SignatureValue>djd9AYljjysuv8CbbzQjYf1N+Z5MTRrdG1lnDsxg5QVUJ6ipGVlgNwx9jOqQUQSSfrN1ch6Edaa+LVEKOwt6lJ/74cLuxXj79fDgQFwXorkWKblQG4HS1OtYbTWFmwIgpRCsWiRbeSPjRFyXAXjn8Hh0l8m9lDqwK+MZlpIDVHs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tB16EYUfHaU0J2OWuTfTImnptII+wB7GHb2Yf2EofL/uyRYyOhF84qarfnLYfO6EgWghtkf8LGUEfuANdp8Aaz5PxVrLJvfPw6/HJMlByX1ruUqgg5WdPcny0QiUbiTFO6je4OcFD6oS4zx6TygGMPklDVzuCgcdSJLNxb59uSE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQPEuSWixSpaVKBnW4qdCeOTANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYAUwBBAEwASQBIAFwAcwBhAGwAaQBoMB4XDTIwMTAyNTE1MzMyM1oXDTIxMTAyNTIxMzMyM1owITEfMB0GA1UEAx4WAFMAQQBMAEkASABcAHMAYQBsAGkAaDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAtB16EYUfHaU0J2OWuTfTImnptII+wB7GHb2Yf2EofL/uyRYyOhF84qarfnLYfO6EgWghtkf8LGUEfuANdp8Aaz5PxVrLJvfPw6/HJMlByX1ruUqgg5WdPcny0QiUbiTFO6je4OcFD6oS4zx6TygGMPklDVzuCgcdSJLNxb59uSECAwEAATANBgkqhkiG9w0BAQsFAAOBgQB3aWxprLM+rZSGvSuPu45j9bVRUDoDBQkiUgjwKQmaYe2zPEvzpsh78P5QOUOk0ojGhRsNHCPG4AY2MTtiXDjvJV8O7veUo1raZNzl1CDWE/KvP8CokXMzqugkEskM5O7wp6+JLUq2m0xKdPVfCNv3UdHeQkm7mV2JwR2+k3DP9w==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
